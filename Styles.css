@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: url('https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navLogo a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    font-size: 1rem;
+    font-weight: 600;
+    height: 80px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+nav a:hover{
+    background-color: #e8e8ed;
+    color: black;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+/**Hero Section**/
+.heroSection{
+    margin: 10px;
+    height: 580px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+.heroSection .box1{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-position: center;
+    background-image: url('https://live.staticflickr.com/3440/5712149508_f9c138bea1_b.jpg');
+    background-size: cover;
+    width: 600px;
+    text-align: center;
+    padding-top: 400px;
+}
+.heroSection .box2{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-position: center;
+    background-image: url('https://live.staticflickr.com/3440/5712149508_f9c138bea1_b.jpg');
+    background-size: cover;
+    width: 600px;
+    text-align: center;
+    padding-top: 400px;
+}
+.heroSection .box3{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-position: center;
+    background-image: url('https://live.staticflickr.com/3440/5712149508_f9c138bea1_b.jpg');
+    background-size: cover;
+    width: 600px;
+    text-align: center;
+    padding-top: 400px;
+}
+.heroSection .commonBox h1{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+.heroSection .commonBox p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
